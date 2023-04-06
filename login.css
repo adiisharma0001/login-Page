@@ -1,0 +1,26 @@
+form {
+  border: 3px solid #05f129;
+  padding: 70px;
+  border-radius: 5px;
+  width: 505px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="result"] {
+  /* display: block; */
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid #921414;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: solid #921414;
+  border: none;
+  cursor: pointer;
+}
