@@ -1,5 +1,3 @@
-
-
 function loginFunc(e) {
   e.preventDefault();
 
