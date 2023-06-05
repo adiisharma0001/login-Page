@@ -14,7 +14,7 @@ function loginFunc(e) {
   } else if (username == data.username && pass == data.password) {
     result.innerHTML = 'logged in';
   } else {
-    result.innerHTML = 'wrong password';
+    result.innerHTML = 'wrong password "Enter a Valid Password';
   }
 
 }
